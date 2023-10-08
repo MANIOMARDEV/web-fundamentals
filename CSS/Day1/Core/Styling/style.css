@@ -1,0 +1,20 @@
+h1{
+    color:white;background-color: black;
+    
+}
+h1 span{
+    color: cyan;
+}
+h2{color: aliceblue;
+     background-color:rgb(102,51,153);
+     text-align:center;
+     text-decoration: solid;
+    font-style: italic;
+}
+h3{
+/* test decoration to remove and put underline */
+    color: rgb(60,59,116);
+     background-color: rgb(73, 194, 198);
+      text-align: right
+      ;text-decoration: underline;
+}

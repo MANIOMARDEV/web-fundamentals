@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fbf5f5;
+}
+
+/* Top navigation */
+.top {
+    background-color: #373636;
+}
+
+.nav {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 25px;
+}
+
+/* Buttons */
+.btn {
+    height: 35px;
+    min-width: 100px; /* Use min-width for responsiveness */
+    background-color: #12aec6;
+    color: white;
+    border: none;
+    font-size: 20px;
+    box-shadow: 4px 4px black;
+}
+
+/* Container and layout */
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Ensure wrapping for smaller screens */
+}
+
+.col {
+    margin: 12px;
+    padding: 12px;
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+/* Card styling */
+.user-card, .card {
+    width: 100%;
+    background-color: #f0e9e9;
+    border: 3px solid silver;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+/* Links */
+a {
+    color: #3a81e6;
+}
+
+/* Header and user section */
+.header {
+    background-color: #333333;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar-s {
+    border-radius: 50%;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.user-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+}
+
+.dates {
+    font-size: 20px;
+    color: silver;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    border-top: 2px solid silver;
+}
+
+.connections {
+    background-color: white;
+    color: #555454;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
