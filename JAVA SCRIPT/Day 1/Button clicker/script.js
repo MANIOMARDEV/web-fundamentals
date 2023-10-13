@@ -2,7 +2,8 @@
 console.log("page loaded...");
 
 // Function to toggle the text of a login button between "Login" and "Logout"
-function login(element) {
+function login(element)
+ {
     if (element.innerText == "Login") {
         element.innerText = "Logout";
     } else {
