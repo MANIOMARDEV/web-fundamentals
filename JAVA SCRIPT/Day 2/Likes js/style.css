@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting the font family for the entire body */
+body {
+    font-family: sans-serif, Arial;
+}
+
+/* Styling for a container element */
+.container {
+    width: 1050px;
+    margin: 0 auto; /* Centering the container */
+}
+
+/* Styling for a top section with a dark background */
+.topup {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    height: 35px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for the centered title */
+.centretitle {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    font-size: 36px;
+    position: relative;
+    left: 20px;
+}
+
+/* Styling for a section with two columns */
+.part2 {
+    display: flex;
+}
+
+/* Styling for user profiles on the left */
+.user {
+    padding: 20px;
+    border: 4px solid black;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    margin-left: 25px;
+}
+
+/* Styling for the left column within the two-column section */
+.left {
+    flex: 0.8;
+}
+
+/* Styling for a profile photo */
+.photojames {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+/* Styling for paragraphs within the left column */
+.left p {
+    margin: 20px;
+    font-size: 20px;
+}
+
+/* Styling for the right column within the two-column section */
+.right {
+    flex: 2;
+    width: 300px;
+    height: 150px;
+}
+
+/* Styling for a section with padding and a border */
+.part3 {
+    padding: 40px;
+    margin-bottom: 10px;
+    border: 4px solid #0f0f0f;
+    font-size: 1.2rem;
+}
+
+/* Styling for a top line section with flex layout */
+.top-line {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Styling for a like button element */
+.like-btn {
+    background-color: #ffd75f;
+    padding: 5px 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: Arial;
+}

@@ -1,9 +1,9 @@
-* { 
+*{ 
     margin: 0;
     padding: 0;
 }
 body {
-    font-family: sans-serif 'Roboto';
+    font-family: sans-serif ;
     background-color: white;
 }
 .container {

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="topup">
+            <h1>Network</h1> <!-- Heading for the network -->
+        </div>
+        <h2 class="centretitle">Your Feed</h2> <!-- Heading for the user's feed -->
+
+        <div class="part2">
+            <div class="left">
+                <div class="user">
+                    <img src="1516569889306.jfif" alt="username" class="photojames"> <!-- User's avatar image -->
+                    <p><a href="#">Add an avatar</a></p> <!-- Link to add an avatar -->
+                    <h2>James Doe</h2> <!-- User's name -->
+                </div>
+            </div>
+            <div class="right">
+                <div class="part3">
+                    <div class="top-line">
+                        <h2 class="titleneil">Neil M</h2> <!-- User Neil M's name -->
+                        <div class="likes">
+                            <span id="pup1">9 like(s)</span>
+                            <button class="like-btn" onclick="like(0)">Like</button>
+                            <!-- A button to 'Like' a post, calling the 'like' function with an argument -->
+                        </div>
+                    </div>
+                    <p>I just set up this new discord bot, let me <br>
+                        know what you all think. <a href="#">link</a></p>
+                    <!-- Post by Neil M with a link -->
+                </div>
+                <div class="part3">
+                    <div class="top-line">
+                        <h2 class="titleneil">Nichole k</h2> <!-- User Nichole k's name -->
+                        <div class="likes">
+                            <span id="pup2">12 like(s)</span>
+                            <button class="like-btn" onclick="like(1)">Like</button>
+                            <!-- A button to 'Like' a post, calling the 'like' function with an argument -->
+                        </div>
+                    </div>
+                    <p>Just finished my <a href="#">next comic</a>, check it out</p>
+                    <!-- Post by Nichole k with a link -->
+                </div>
+                <div class="part3">
+                    <div class="top-line"> <!-- Fixed an error here by removing the space between "div" and "top-line" -->
+                        <h2 class="titleneil">Jim R</h2> <!-- User Jim R's name -->
+                        <div class="likes">
+                            <span id="pup3">9 like(s)</span>
+                            <button class="like-btn" onclick="like(2)">Like</button>
+                            <!-- A button to 'Like' a post, calling the 'like' function with an argument -->
+                        </div>
+                    </div>
+                    <p>I can't stop listening to the <a href="#">new album</a> <br> who else is liking it? </p>
+                    <!-- Post by Jim R with a link -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Include JavaScript file -->
